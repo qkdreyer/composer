@@ -1,0 +1,1415 @@
+{
+    "packages": {
+        "datastax/php-driver": {
+            "v1.0.0": {
+                "name": "datastax/php-driver",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "d708f9f6ef5e3049b48b489a7154e7d868fd14f4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/d708f9f6ef5e3049b48b489a7154e7d868fd14f4",
+                    "reference": "d708f9f6ef5e3049b48b489a7154e7d868fd14f4",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~3.0.6",
+                    "ext-cassandra": "*",
+                    "php": ">=5.3.4",
+                    "phpunit/php-code-coverage": "~2.0",
+                    "phpunit/php-token-stream": "~1.3",
+                    "phpunit/phpunit": "4.5.*",
+                    "symfony/process": "~2.1"
+                },
+                "time": "2015-09-14T18:01:58+00:00",
+                "type": "library",
+                "scripts": {
+                    "test": [
+                        "phpunit && behat"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "DataStax PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/v1.0.0"
+                }
+            },
+            "v1.0.0-rc": {
+                "name": "datastax/php-driver",
+                "version": "v1.0.0-rc",
+                "version_normalized": "1.0.0.0-RC",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "6aac6b4a3dd2c2e42fb4457bc794727b392880cb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/6aac6b4a3dd2c2e42fb4457bc794727b392880cb",
+                    "reference": "6aac6b4a3dd2c2e42fb4457bc794727b392880cb",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~3.0.6",
+                    "ext-cassandra": "*",
+                    "php": ">=5.3.4",
+                    "phpunit/php-code-coverage": "~2.0",
+                    "phpunit/php-token-stream": "~1.3",
+                    "phpunit/phpunit": "4.5.*",
+                    "symfony/process": "~2.1"
+                },
+                "time": "2015-07-28T22:57:47+00:00",
+                "type": "library",
+                "scripts": {
+                    "test": [
+                        "phpunit && behat"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "DataStax PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/v1.0.0-rc"
+                }
+            },
+            "v1.0.0-alpha": {
+                "name": "datastax/php-driver",
+                "version": "v1.0.0-alpha",
+                "version_normalized": "1.0.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "8291f952ff729d28ef08044871a7978196ec5482"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/8291f952ff729d28ef08044871a7978196ec5482",
+                    "reference": "8291f952ff729d28ef08044871a7978196ec5482",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-cassandra": "*",
+                    "php": ">=5.3.2"
+                },
+                "require-dev": {
+                    "behat/behat": "~3.0.6",
+                    "phpunit/phpunit": "4.5.*",
+                    "symfony/process": "~2.1"
+                },
+                "time": "2015-04-02T16:27:06+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Cassandra\\": "src/Cassandra",
+                        "Cassandra": "src/"
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/v1.0.0-alpha"
+                }
+            },
+            "v1.0.0-beta": {
+                "name": "datastax/php-driver",
+                "version": "v1.0.0-beta",
+                "version_normalized": "1.0.0.0-beta",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "09a274bc1f989a1832c82297e196fc1adcd8afad"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/09a274bc1f989a1832c82297e196fc1adcd8afad",
+                    "reference": "09a274bc1f989a1832c82297e196fc1adcd8afad",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~3.0.6",
+                    "ext-cassandra": "*",
+                    "php": ">=5.3.4",
+                    "phpunit/php-code-coverage": "~2.0",
+                    "phpunit/php-token-stream": "~1.3",
+                    "phpunit/phpunit": "4.5.*",
+                    "symfony/process": "~2.1"
+                },
+                "time": "2015-05-26T23:40:12+00:00",
+                "type": "library",
+                "scripts": {
+                    "test": [
+                        "phpunit && behat"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "DataStax PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/v1.0.0-beta"
+                }
+            },
+            "v1.0.1": {
+                "name": "datastax/php-driver",
+                "version": "v1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "1083e9c5de91c28f6d46959f127d145e4f65e292"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/1083e9c5de91c28f6d46959f127d145e4f65e292",
+                    "reference": "1083e9c5de91c28f6d46959f127d145e4f65e292",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~3.0.6",
+                    "ext-cassandra": "*",
+                    "php": ">=5.3.4",
+                    "phpunit/php-code-coverage": "~2.0",
+                    "phpunit/php-token-stream": "~1.3",
+                    "phpunit/phpunit": "4.5.*",
+                    "symfony/process": "~2.1"
+                },
+                "time": "2015-11-20T19:40:17+00:00",
+                "type": "library",
+                "scripts": {
+                    "test": [
+                        "phpunit && behat"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "DataStax PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/v1.0.1"
+                }
+            },
+            "v1.1.0": {
+                "name": "datastax/php-driver",
+                "version": "v1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "f91f2bb59c4f4c3d44485cd0c01a96703343b254"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/f91f2bb59c4f4c3d44485cd0c01a96703343b254",
+                    "reference": "f91f2bb59c4f4c3d44485cd0c01a96703343b254",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~3.0.6",
+                    "ext-cassandra": "*",
+                    "php": ">=5.5.0",
+                    "phpunit/php-code-coverage": "~2.0",
+                    "phpunit/php-token-stream": "~1.3",
+                    "phpunit/phpunit": "~4.8",
+                    "symfony/process": "~2.1"
+                },
+                "time": "2016-02-11T17:32:25+00:00",
+                "type": "library",
+                "autoload-dev": {
+                    "files": [
+                        "support/ccm.php"
+                    ],
+                    "psr-4": {
+                        "Cassandra\\": [
+                            "tests/unit/Cassandra/",
+                            "tests/integration/Cassandra/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit && behat"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Penick",
+                        "email": "michael.penick@datastax.com",
+                        "homepage": "https://github.com/mpenick"
+                    },
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "DataStax PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/v1.1.0"
+                }
+            },
+            "v1.2.0": {
+                "name": "datastax/php-driver",
+                "version": "v1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "84035aa9d81c7c3b53f2f3461949e2bbdd300f46"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/84035aa9d81c7c3b53f2f3461949e2bbdd300f46",
+                    "reference": "84035aa9d81c7c3b53f2f3461949e2bbdd300f46",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~3.0.6",
+                    "ext-cassandra": "*",
+                    "php": ">=5.5.0",
+                    "phpunit/php-code-coverage": "~2.0",
+                    "phpunit/php-token-stream": "~1.3",
+                    "phpunit/phpunit": "~4.8",
+                    "symfony/process": "~2.1"
+                },
+                "time": "2016-07-18T18:31:05+00:00",
+                "type": "library",
+                "autoload-dev": {
+                    "files": [
+                        "support/ccm.php"
+                    ],
+                    "psr-4": {
+                        "Cassandra\\": [
+                            "tests/unit/Cassandra/",
+                            "tests/integration/Cassandra/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit && behat"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Penick",
+                        "email": "michael.penick@datastax.com",
+                        "homepage": "https://github.com/mpenick"
+                    },
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "DataStax PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/v1.2.0"
+                }
+            },
+            "v1.2.1": {
+                "name": "datastax/php-driver",
+                "version": "v1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "181d9be0d28464b04fdb6d1d26f99c82a95ffd7d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/181d9be0d28464b04fdb6d1d26f99c82a95ffd7d",
+                    "reference": "181d9be0d28464b04fdb6d1d26f99c82a95ffd7d",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~3.0.6",
+                    "ext-cassandra": "*",
+                    "php": ">=5.5.0",
+                    "phpunit/php-code-coverage": "~2.0",
+                    "phpunit/php-token-stream": "~1.3",
+                    "phpunit/phpunit": "~4.8",
+                    "symfony/process": "~2.1"
+                },
+                "time": "2016-07-28T15:48:28+00:00",
+                "type": "library",
+                "autoload-dev": {
+                    "files": [
+                        "support/ccm.php"
+                    ],
+                    "psr-4": {
+                        "Cassandra\\": [
+                            "tests/unit/Cassandra/",
+                            "tests/integration/Cassandra/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit && behat"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Penick",
+                        "email": "michael.penick@datastax.com",
+                        "homepage": "https://github.com/mpenick"
+                    },
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "DataStax PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/v1.2.1"
+                }
+            },
+            "v1.2.2": {
+                "name": "datastax/php-driver",
+                "version": "v1.2.2",
+                "version_normalized": "1.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "919d5873445c7ff3cb2c278e1f733994f96cb553"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/919d5873445c7ff3cb2c278e1f733994f96cb553",
+                    "reference": "919d5873445c7ff3cb2c278e1f733994f96cb553",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~3.0.6",
+                    "ext-cassandra": "*",
+                    "php": ">=5.5.0",
+                    "phpunit/php-code-coverage": "~2.0",
+                    "phpunit/php-token-stream": "~1.3",
+                    "phpunit/phpunit": "~4.8",
+                    "symfony/process": "~2.1"
+                },
+                "time": "2016-08-08T18:26:14+00:00",
+                "type": "library",
+                "autoload-dev": {
+                    "files": [
+                        "support/ccm.php"
+                    ],
+                    "psr-4": {
+                        "Cassandra\\": [
+                            "tests/unit/Cassandra/",
+                            "tests/integration/Cassandra/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit && behat"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Penick",
+                        "email": "michael.penick@datastax.com",
+                        "homepage": "https://github.com/mpenick"
+                    },
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "DataStax PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/v1.2.2"
+                }
+            },
+            "v1.3.0": {
+                "name": "datastax/php-driver",
+                "version": "v1.3.0",
+                "version_normalized": "1.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "78f83d035d4c1abc9f1e51972e6a184e529c44e9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/78f83d035d4c1abc9f1e51972e6a184e529c44e9",
+                    "reference": "78f83d035d4c1abc9f1e51972e6a184e529c44e9",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~3.0.6",
+                    "ext-cassandra": "*",
+                    "php": ">=5.5.0",
+                    "phpunit/php-code-coverage": "~2.0",
+                    "phpunit/php-token-stream": "~1.3",
+                    "phpunit/phpunit": "~4.8",
+                    "symfony/process": "~2.1"
+                },
+                "time": "2017-03-13T14:02:15+00:00",
+                "type": "library",
+                "autoload-dev": {
+                    "files": [
+                        "support/ccm.php"
+                    ],
+                    "psr-4": {
+                        "Cassandra\\": [
+                            "tests/unit/Cassandra/",
+                            "tests/integration/Cassandra/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit && behat"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Penick",
+                        "email": "michael.penick@datastax.com",
+                        "homepage": "https://github.com/mpenick"
+                    },
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "DataStax PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/v1.3.0"
+                }
+            },
+            "v1.3.1": {
+                "name": "datastax/php-driver",
+                "version": "v1.3.1",
+                "version_normalized": "1.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "b3803ce60bdcb0676386e8eff1893316bb57be4b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/b3803ce60bdcb0676386e8eff1893316bb57be4b",
+                    "reference": "b3803ce60bdcb0676386e8eff1893316bb57be4b",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~3.0.6",
+                    "ext-cassandra": "*",
+                    "php": ">=5.5.0",
+                    "phpunit/php-code-coverage": "~2.0",
+                    "phpunit/php-token-stream": "~1.3",
+                    "phpunit/phpunit": "~4.8",
+                    "symfony/process": "~2.1"
+                },
+                "time": "2017-05-16T02:25:28+00:00",
+                "type": "library",
+                "autoload-dev": {
+                    "files": [
+                        "support/ccm.php"
+                    ],
+                    "psr-4": {
+                        "Cassandra\\": [
+                            "tests/unit/Cassandra/",
+                            "tests/integration/Cassandra/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit && behat"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Penick",
+                        "email": "michael.penick@datastax.com",
+                        "homepage": "https://github.com/mpenick"
+                    },
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "DataStax PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/v1.3.1"
+                }
+            },
+            "v1.3.2": {
+                "name": "datastax/php-driver",
+                "version": "v1.3.2",
+                "version_normalized": "1.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "1333d835130e07f0b517fc431d4b1aa45eed27a5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/1333d835130e07f0b517fc431d4b1aa45eed27a5",
+                    "reference": "1333d835130e07f0b517fc431d4b1aa45eed27a5",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-cassandra": "^1.0.0",
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~3.0.6",
+                    "phpunit/php-code-coverage": "~2.0",
+                    "phpunit/php-token-stream": "~1.3",
+                    "phpunit/phpunit": "~4.8",
+                    "symfony/process": "~2.1"
+                },
+                "time": "2017-08-11T19:29:38+00:00",
+                "type": "library",
+                "autoload-dev": {
+                    "files": [
+                        "support/ccm.php"
+                    ],
+                    "psr-4": {
+                        "Cassandra\\": [
+                            "tests/unit/Cassandra/",
+                            "tests/integration/Cassandra/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit && behat"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Penick",
+                        "email": "michael.penick@datastax.com",
+                        "homepage": "https://github.com/mpenick"
+                    },
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "DataStax PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/v1.3.2"
+                }
+            },
+            "v1.3.3": {
+                "name": "datastax/php-driver",
+                "version": "v1.3.3",
+                "version_normalized": "1.3.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "05c3b5757df142ebc0b67ac06c7572f0b52ef768"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/05c3b5757df142ebc0b67ac06c7572f0b52ef768",
+                    "reference": "05c3b5757df142ebc0b67ac06c7572f0b52ef768",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~3.0.6",
+                    "phpunit/php-code-coverage": "~2.0",
+                    "phpunit/php-token-stream": "~1.3",
+                    "phpunit/phpunit": "~4.8",
+                    "symfony/process": "~2.1"
+                },
+                "time": "2018-11-05T10:48:25+00:00",
+                "type": "library",
+                "autoload-dev": {
+                    "files": [
+                        "support/ccm.php"
+                    ],
+                    "psr-4": {
+                        "Cassandra\\": [
+                            "tests/unit/Cassandra/",
+                            "tests/integration/Cassandra/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit && behat"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Penick",
+                        "email": "michael.penick@datastax.com",
+                        "homepage": "https://github.com/mpenick"
+                    },
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "DataStax PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/v1.3.3"
+                }
+            },
+            "v1.4.0": {
+                "name": "datastax/php-driver",
+                "version": "v1.4.0",
+                "version_normalized": "1.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "5ee37629e5bb790e3120f5732216d22dfb04bc89"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/5ee37629e5bb790e3120f5732216d22dfb04bc89",
+                    "reference": "5ee37629e5bb790e3120f5732216d22dfb04bc89",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.1"
+                },
+                "require-dev": {
+                    "behat/behat": "^3.7",
+                    "phpunit/php-code-coverage": "^7.0",
+                    "phpunit/php-token-stream": "^3.1",
+                    "phpunit/phpunit": "^8.5",
+                    "symfony/process": "^5.4"
+                },
+                "time": "2022-03-29T07:39:36+00:00",
+                "type": "library",
+                "autoload-dev": {
+                    "files": [
+                        "support/ccm.php"
+                    ],
+                    "psr-4": {
+                        "Cassandra\\": [
+                            "tests/unit/Cassandra/",
+                            "tests/integration/Cassandra/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit && behat"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Penick",
+                        "email": "michael.penick@datastax.com",
+                        "homepage": "https://github.com/mpenick"
+                    },
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "DataStax PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/v1.4.0"
+                }
+            },
+            "v1.4.1": {
+                "name": "datastax/php-driver",
+                "version": "v1.4.1",
+                "version_normalized": "1.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "065c994ad904549114155c2b19c9787696b28119"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/065c994ad904549114155c2b19c9787696b28119",
+                    "reference": "065c994ad904549114155c2b19c9787696b28119",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.1"
+                },
+                "require-dev": {
+                    "behat/behat": "^3.7",
+                    "phpunit/php-code-coverage": "^7.0",
+                    "phpunit/php-token-stream": "^3.1",
+                    "phpunit/phpunit": "^8.5",
+                    "symfony/process": "^5.4"
+                },
+                "time": "2022-03-29T09:26:37+00:00",
+                "type": "library",
+                "autoload-dev": {
+                    "files": [
+                        "support/ccm.php"
+                    ],
+                    "psr-4": {
+                        "Cassandra\\": [
+                            "tests/unit/Cassandra/",
+                            "tests/integration/Cassandra/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit && behat"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Penick",
+                        "email": "michael.penick@datastax.com",
+                        "homepage": "https://github.com/mpenick"
+                    },
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "DataStax PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/v1.4.1"
+                }
+            },
+            "dev-PHP-117": {
+                "name": "datastax/php-driver",
+                "version": "dev-PHP-117",
+                "version_normalized": "dev-PHP-117",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "9bdf5602e2a2553d330398084dc52693c7cf870f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/9bdf5602e2a2553d330398084dc52693c7cf870f",
+                    "reference": "9bdf5602e2a2553d330398084dc52693c7cf870f",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~3.0.6",
+                    "ext-cassandra": "*",
+                    "php": ">=5.5.0",
+                    "phpunit/php-code-coverage": "~2.0",
+                    "phpunit/php-token-stream": "~1.3",
+                    "phpunit/phpunit": "~4.8",
+                    "symfony/process": "~2.1"
+                },
+                "time": "2017-08-03T14:56:46+00:00",
+                "type": "library",
+                "autoload-dev": {
+                    "files": [
+                        "support/ccm.php"
+                    ],
+                    "psr-4": {
+                        "Cassandra\\": [
+                            "tests/unit/Cassandra/",
+                            "tests/integration/Cassandra/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit && behat"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Penick",
+                        "email": "michael.penick@datastax.com",
+                        "homepage": "https://github.com/mpenick"
+                    },
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "DataStax PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/PHP-117"
+                }
+            },
+            "dev-PHP-159": {
+                "name": "datastax/php-driver",
+                "version": "dev-PHP-159",
+                "version_normalized": "dev-PHP-159",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "81503a9abc3f19fbdd8306440a2aae42f4102154"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/81503a9abc3f19fbdd8306440a2aae42f4102154",
+                    "reference": "81503a9abc3f19fbdd8306440a2aae42f4102154",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-cassandra": "^1.0.0",
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~3.0.6",
+                    "phpunit/php-code-coverage": "~2.0",
+                    "phpunit/php-token-stream": "~1.3",
+                    "phpunit/phpunit": "~4.8",
+                    "symfony/process": "~2.1"
+                },
+                "time": "2017-08-03T16:57:18+00:00",
+                "type": "library",
+                "autoload-dev": {
+                    "files": [
+                        "support/ccm.php"
+                    ],
+                    "psr-4": {
+                        "Cassandra\\": [
+                            "tests/unit/Cassandra/",
+                            "tests/integration/Cassandra/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit && behat"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Penick",
+                        "email": "michael.penick@datastax.com",
+                        "homepage": "https://github.com/mpenick"
+                    },
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "DataStax PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/PHP-159"
+                }
+            },
+            "dev-PHP-189": {
+                "name": "datastax/php-driver",
+                "version": "dev-PHP-189",
+                "version_normalized": "dev-PHP-189",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "70e68b1dd19940f00c5b110818da1ae1816f0044"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/70e68b1dd19940f00c5b110818da1ae1816f0044",
+                    "reference": "70e68b1dd19940f00c5b110818da1ae1816f0044",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "behat/behat": "~3.0.6",
+                    "ext-cassandra": "*",
+                    "php": ">=5.5.0",
+                    "phpunit/php-code-coverage": "~2.0",
+                    "phpunit/php-token-stream": "~1.3",
+                    "phpunit/phpunit": "~4.8",
+                    "symfony/process": "~2.1"
+                },
+                "time": "2017-05-18T18:45:18+00:00",
+                "type": "library",
+                "autoload-dev": {
+                    "files": [
+                        "support/ccm.php"
+                    ],
+                    "psr-4": {
+                        "Cassandra\\": [
+                            "tests/unit/Cassandra/",
+                            "tests/integration/Cassandra/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit && behat"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Penick",
+                        "email": "michael.penick@datastax.com",
+                        "homepage": "https://github.com/mpenick"
+                    },
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "DataStax PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/PHP-189"
+                }
+            },
+            "dev-PHP-198": {
+                "name": "datastax/php-driver",
+                "version": "dev-PHP-198",
+                "version_normalized": "dev-PHP-198",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "587c83d68f665a5c32680e583ff3727626b8eff2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/587c83d68f665a5c32680e583ff3727626b8eff2",
+                    "reference": "587c83d68f665a5c32680e583ff3727626b8eff2",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-cassandra": "^1.0.0",
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~3.0.6",
+                    "phpunit/php-code-coverage": "~2.0",
+                    "phpunit/php-token-stream": "~1.3",
+                    "phpunit/phpunit": "~4.8",
+                    "symfony/process": "~2.1"
+                },
+                "time": "2017-08-07T12:45:49+00:00",
+                "type": "library",
+                "autoload-dev": {
+                    "files": [
+                        "support/ccm.php"
+                    ],
+                    "psr-4": {
+                        "Cassandra\\": [
+                            "tests/unit/Cassandra/",
+                            "tests/integration/Cassandra/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit && behat"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Penick",
+                        "email": "michael.penick@datastax.com",
+                        "homepage": "https://github.com/mpenick"
+                    },
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "DataStax PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/PHP-198"
+                }
+            },
+            "dev-doc-2049": {
+                "name": "datastax/php-driver",
+                "version": "dev-doc-2049",
+                "version_normalized": "dev-doc-2049",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "526677ad059156bfa6bfe2e11c9958c67c213887"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/526677ad059156bfa6bfe2e11c9958c67c213887",
+                    "reference": "526677ad059156bfa6bfe2e11c9958c67c213887",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-cassandra": "^1.0.0",
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "behat/behat": "~3.0.6",
+                    "phpunit/php-code-coverage": "~2.0",
+                    "phpunit/php-token-stream": "~1.3",
+                    "phpunit/phpunit": "~4.8",
+                    "symfony/process": "~2.1"
+                },
+                "time": "2018-10-30T20:44:35+00:00",
+                "type": "library",
+                "autoload-dev": {
+                    "files": [
+                        "support/ccm.php"
+                    ],
+                    "psr-4": {
+                        "Cassandra\\": [
+                            "tests/unit/Cassandra/",
+                            "tests/integration/Cassandra/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit && behat"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Penick",
+                        "email": "michael.penick@datastax.com",
+                        "homepage": "https://github.com/mpenick"
+                    },
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "DataStax PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/doc-2049"
+                }
+            },
+            "dev-master": {
+                "name": "datastax/php-driver",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rgsystemes/php-driver.git",
+                    "reference": "065c994ad904549114155c2b19c9787696b28119"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rgsystemes/php-driver/zipball/065c994ad904549114155c2b19c9787696b28119",
+                    "reference": "065c994ad904549114155c2b19c9787696b28119",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.1"
+                },
+                "require-dev": {
+                    "behat/behat": "^3.7",
+                    "phpunit/php-code-coverage": "^7.0",
+                    "phpunit/php-token-stream": "^3.1",
+                    "phpunit/phpunit": "^8.5",
+                    "symfony/process": "^5.4"
+                },
+                "time": "2022-03-29T09:26:37+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload-dev": {
+                    "files": [
+                        "support/ccm.php"
+                    ],
+                    "psr-4": {
+                        "Cassandra\\": [
+                            "tests/unit/Cassandra/",
+                            "tests/integration/Cassandra/"
+                        ]
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit && behat"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Penick",
+                        "email": "michael.penick@datastax.com",
+                        "homepage": "https://github.com/mpenick"
+                    },
+                    {
+                        "name": "Bulat Shakirzyanov",
+                        "email": "bulat.shakirzyanov@datastax.com",
+                        "homepage": "http://avalanche123.com"
+                    }
+                ],
+                "description": "DataStax PHP Driver for Apache Cassandra",
+                "homepage": "http://datastax.github.io/php-driver/",
+                "keywords": [
+                    "cassandra",
+                    "database",
+                    "datastax",
+                    "driver",
+                    "nosql"
+                ],
+                "support": {
+                    "source": "https://github.com/rgsystemes/php-driver/tree/v1.4.1"
+                }
+            }
+        }
+    }
+}

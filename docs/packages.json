@@ -1,0 +1,12 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$bbef74afe3f5a3f288486423698d2f3d859aed7f.json": {
+            "sha1": "bbef74afe3f5a3f288486423698d2f3d859aed7f"
+        }
+    },
+    "metadata-url": "/p2/%package%.json",
+    "available-packages": [
+        "datastax/php-driver"
+    ]
+}
