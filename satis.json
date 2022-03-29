@@ -1,0 +1,15 @@
+{
+  "name": "rgsystemes/satis",
+  "homepage": "https://www.rgsystem.fr/",
+  "repositories": [
+    {
+      "packagist.org": false
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/rgsystemes/php-driver"
+    }
+  ],
+  "require-all": true,
+  "output-dir": "docs"
+}
